@@ -55,7 +55,21 @@ a {
   padding-bottom: 0.4em;
 }
 
-.content p {
+.content p,
+.content ul.values,
+.content ul.events {
   text-align: left;
   margin: 0 2em 2em 2em;
+}
+
+ul.values li {
+  list-style: circle;
+}
+
+.content ul.events li {
+  list-style: none;
+}
+
+.content ul.events li.title {
+  font-weight: bold;
 }

@@ -72,4 +72,28 @@ ul.values li {
 
 .content ul.events li.title {
   font-weight: bold;
+  margin-top: 1em;
+}
+
+form.contact {
+  text-align: left;
+  padding: 0 1em 0 1em;
+}
+
+form.contact .field {
+  margin: 0.5em 0;
+}
+
+form.contact .field label {
+  display: block;
+}
+
+form.contact .field input,
+form.contact .field textarea {
+  width: 100%;
+}
+
+form.contact input.btn {
+  width: 50%;
+  padding: 0.2em;
 }

@@ -98,10 +98,6 @@ form.contact input.btn {
   padding: 0.2em;
 }
 
-form.contact textarea {
-  resize: none;
-}
-
 .small {
   font-size: medium;
 }
